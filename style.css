@@ -1,11 +1,11 @@
 * {
-	box-sizing: border-box;
-	margin:  0;
-	padding:  0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /* Configurações Background */
 html {
-  background: url(/img/bruno-grossi-J2l01HcDICQ-unsplash.jpg);
+  background: url(/img/imagem.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100 vh;
@@ -35,4 +35,3 @@ p {
   color: #000;
   font-weight: 100;
 }
-
