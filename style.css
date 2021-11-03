@@ -36,26 +36,3 @@ p {
   font-weight: 100;
 }
 
-@media (min-width: 768px) {  
-    
-    
-
-      nav a {
-        margin-right: 20px;
-        align-items: stretch;
-      }
-      
-      nav {
-        margin-left: 75%;
-        margin-top: 20px;
-      }
-    h1{
-    font-size: 50px;
-  text-align: center;
-  color: #000;
-  font-weight: 100;
-}
-p{}
-   
-
-}
