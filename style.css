@@ -6,7 +6,7 @@
 /* Configurações Background */
 html {
   background: url(/img/imagem.jpg);
-  background-size: 100%;
+  background-size: 110%;
   background-repeat: no-repeat;
   height: 100 vh;
   justify-content: center;
@@ -16,22 +16,28 @@ html {
 /*Navegação*/
 
 nav a {
-  margin-right: 30px;
+  margin-right: 10%;
   align-items: stretch;
 }
 
 nav {
   margin-left: 75%;
-  margin-top: 20px;
+  margin-top: 3%;
 }
 
 .description {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
-h1,
+h1{
+  text-align: center;
+  color: #000;
+  font-weight: 10%;
+  font-size: 35px;
+}
+
 p {
   text-align: center;
   color: #000;
-  font-weight: 100;
+  font-size: 25px;
 }
