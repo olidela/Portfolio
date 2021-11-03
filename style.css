@@ -1,9 +1,20 @@
-html{
-  background-image: url(img/varginha-mg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
- 
+* {
+	box-sizing: border-box;
+	margin:  0;
+	padding:  0;
 }
+/* Configurações Background */
+html {
+  background: url(/img/bruno-grossi-J2l01HcDICQ-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100 vh;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+/*Navegação*/
+
 nav a {
   margin-right: 30px;
   align-items: stretch;
@@ -21,4 +32,37 @@ nav {
 h1,
 p {
   text-align: center;
+  color: #000;
+  font-weight: 100;
+}
+
+@media (min-width: 768px) {  
+    
+    html {
+        background: url(/img/bruno-grossi-J2l01HcDICQ-unsplash.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100 vh;
+        justify-content: center;
+        opacity: 0.8;
+      }
+
+      nav a {
+        margin-right: 20px;
+        align-items: stretch;
+      }
+      
+      nav {
+        margin-left: 75%;
+        margin-top: 20px;
+      }
+    h1{
+    font-size: 50px;
+  text-align: center;
+  color: #000;
+  font-weight: 100;
+}
+p{}
+   
+
 }
