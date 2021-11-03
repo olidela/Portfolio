@@ -1,0 +1,24 @@
+html{
+  background-image: url(img/varginha-mg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+}
+nav a {
+  margin-right: 30px;
+  align-items: stretch;
+}
+
+nav {
+  margin-left: 75%;
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 15%;
+}
+
+h1,
+p {
+  text-align: center;
+}
