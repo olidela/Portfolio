@@ -38,14 +38,7 @@ p {
 
 @media (min-width: 768px) {  
     
-    html {
-        background: url(/img/bruno-grossi-J2l01HcDICQ-unsplash.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 100 vh;
-        justify-content: center;
-        opacity: 0.8;
-      }
+    
 
       nav a {
         margin-right: 20px;
