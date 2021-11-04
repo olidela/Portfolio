@@ -5,39 +5,94 @@
 }
 /* Configurações Background */
 html {
-  background: url(/img/imagem.jpg);
-  background-size: 110%;
+  background: url("./img/imagem.jpg");
+  background-size: 115%;
   background-repeat: no-repeat;
   height: 100 vh;
   justify-content: center;
   opacity: 0.8;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Navegação*/
+a:link, a:visited{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
 
 nav a {
-  margin-right: 10%;
+  margin-right: 8%;
   align-items: stretch;
 }
 
 nav {
-  margin-left: 75%;
+  margin-left: 70%;
   margin-top: 3%;
 }
 
 .description {
-  margin-top: 20%;
+  margin-top: 30%;
 }
 
-h1{
+.description h1 {
   text-align: center;
   color: #000;
   font-weight: 10%;
   font-size: 35px;
 }
 
-p {
+.description p {
   text-align: center;
   color: #000;
   font-size: 25px;
+}
+
+/* COnfigurações imagem de perfil */
+
+.foto_perfil {
+  border-radius: 100%;
+  max-width: 200px;
+  margin-top: 30%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.nome {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2%;
+  font-weight: 10%;
+}
+/*Configuração dos Icones*/
+
+.github,
+.instagram,
+.linkedin {
+  width: 50%;
+}
+
+.alinhamento {
+  width: 150px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+
+.apresentacao{
+  margin-top: 3%;
+  width: auto;
+  height: auto;
+  text-align: justify;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
 }
