@@ -6,9 +6,8 @@
 /* Configurações Background */
 html {
   background: url("./img/imagem.png");
-  background-size: 115%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  height: 100 vh;
   justify-content: center;
   opacity: 0.8;
   display: flex;
@@ -25,12 +24,12 @@ a:link, a:visited{
 }
 
 nav a {
-  margin-right: 8%;
-  align-items: stretch;
+  margin-right: 10%;
+  
 }
 
 nav {
-  margin-left: 70%;
+  margin-left: 60%;
   margin-top: 3%;
 }
 
@@ -56,10 +55,11 @@ nav {
 .foto_perfil {
   border-radius: 100%;
   max-width: 200px;
-  margin-top: 30%;
+  margin-top: 20%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  
  
 }
 
@@ -95,4 +95,10 @@ nav {
   margin-left: 10%;
   margin-right: 10%;
   
+}
+
+section {
+  margin-top: 750px;
+
+  height: 600px;
 }
